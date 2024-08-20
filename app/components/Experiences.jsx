@@ -7,7 +7,7 @@ import TimelineElements from "./TimelineElements";
 const technologies = [
   { name: "JavaScript", image: "images/javascript.png" },
   { name: "React", image: "images/react213.png" },
-  { name: "Next.js", image: "images/nextjs.png" },
+  { name: "Next.js", image: "images/nextJS.png" },
   { name: "Tailwind CSS", image: "images/tailwindcss.png" },
   { name: "Node.js", image: "images/nodejs.png" },
   { name: "HTML", image: "images/html.png" },
