@@ -72,10 +72,10 @@ const AboutSection = () => {
     <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
         <p className="text-base lg:text-lg">
-            I am an aspiring full stack developer with an interest in front-end development. I've worked
+            I am an aspiring full stack developer with an interest in front-end development. Ive worked
          in a variety of roles ranging from software developer, teaching assistant, to receptionist. But my passion lies in 
          coding and building unique user interfaces. I have experience working with HTML, CSS, Javascript, Node.JS, 
-         Express, React, NextJS, Tailwind CSS and much more! I'm a team player and always excited to work with others to
+         Express, React, NextJS, Tailwind CSS and much more! Im a team player and always excited to work with others to
          create cool applications.
           </p>
           <div className = "flex flex-row justify-start mt-8">
