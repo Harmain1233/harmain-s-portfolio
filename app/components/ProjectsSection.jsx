@@ -17,8 +17,8 @@ const projectsData = [
       title: "CUNYGPT Project",
       description: "Full Stack CTP Hackathon Project",
       image: "/images/imageCUNYGPT.png", 
-      gitUrl: "https://github.com/Harmain1233/CareerBuddy",
-      previewUrl: "https://harmain1233.github.io/CareerBuddy/",
+      gitUrl: "https://github.com/mao-99/cunyGPT",
+      previewUrl: "https://devpost.com/software/cunygpt?ref_content=user-portfolio&ref_feature=in_progress",
     },
     {
       id: 3,
