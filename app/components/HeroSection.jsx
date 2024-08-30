@@ -18,7 +18,7 @@ const HeroSection = () => {
         >
           <div className="col-span-7 place self-center text-center sm:text-left justify-self-start">
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Hello I'm</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Hello Im</span>
             <span className="block">
             <TypeAnimation
       sequence={[
@@ -37,8 +37,8 @@ const HeroSection = () => {
     </span>
             </h1>
             <p className="text-[#f6f6f6] text-base sm:text-lg mb-6 lg:text-xl">
-              Hello, I'm Harmain! A current senior at CUNY Brooklyn College studying Computer Science! 
-              Scroll to check out all the cool things I'm up to!
+              Hello, Im Harmain! A current senior at CUNY Brooklyn College studying Computer Science! 
+              Scroll to check out all the cool things Im up to!
             </p>
             <div>
             <Link href="/#contact" className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">

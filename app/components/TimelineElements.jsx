@@ -9,7 +9,7 @@ const TimelineElements = [
       },
       {
         id: 2,
-        title: "Computer Science Teaching Assistant",
+        title: "Game Design Teaching Assistant",
         description:
           "Led 3 classrooms of 60 highschool students with a teaching team, introducing students to the ps5.js library and Replit code editor, taught students principles of game design and development.",
         icon: "/images/image4.png",

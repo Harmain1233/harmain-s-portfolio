@@ -1,7 +1,8 @@
 "use client";
-import React from 'react';
+import React from "react";
 import { motion } from "framer-motion";
-import TimelineElements from './TimelineElements';
+import TimelineElements from "./TimelineElements";
+
 
 const technologies = [
   { name: "JavaScript", image: "images/javascript.png" },
@@ -19,53 +20,40 @@ const technologies = [
 const Experiences = () => {
   return (
     <section id="experiences">
-      <h1 className="text-4xl font-bold text-white text-center mt-20">What I've Done So Far</h1>
+      <h1 className="text-4xl font-bold text-white text-center mt-20">
+        What Ive Done So Far
+      </h1>
       <div className="experience-section md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         
         {/* Experiences Section */}
-        <div className='mt-10 flex flex-col'>
-          {TimelineElements.map(element => (
+        <div className="mt-10 flex flex-col">
+          {TimelineElements.map((element) => (
             <motion.div
               key={element.id}
               className="experience-element relative overflow-hidden bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white p-5 rounded-lg mb-5 shadow-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.5 }}
-              style={{
-                backgroundColor: "#1d1836",
-                color: "#fff",
-                padding: "20px",
-                borderRadius: "10px",
-                marginBottom: "20px",
-                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)",
-              }}
             >
               {/* Overlay with title and icon */}
               <div className="overlay absolute inset-0 bg-black bg-opacity-70 flex items-center justify-between p-4 text-white transition-transform duration-300">
-                <h3 className="text-[24px] font-bold">{element.title}</h3>
+                <h3 className="text-2xl font-bold">{element.title}</h3>
                 <div 
                   className="icon-wrapper"
                   style={{
                     backgroundColor: element.iconBg,
-                    borderRadius: "50%",
-                    width: "50px",
-                    height: "50px",
-                    display: "flex",
-                    marginLeft: "5px",
-                    justifyContent: "center",
-                    alignItems: "center",
                   }}
                 >
                   <img 
                     src={element.icon} 
-                    alt={element.title} 
-                    className="w-full h-full object-cover rounded-full" 
+                    alt={`${element.title} icon`} 
+                    className="w-12 h-12 object-cover rounded-full" 
                   />
                 </div>
               </div>
 
               {/* Content */}
               <div className="content pt-5 transition-opacity duration-300">
-                <p className="mt-5 text-white-100 text-[14px] pl-1 tracking-wider">
+                <p className="mt-5 text-white text-sm pl-1 tracking-wider">
                   {element.description}
                 </p>
               </div>
@@ -88,7 +76,7 @@ const Experiences = () => {
             >
               <img
                 src={tech.image}
-                alt={tech.name}
+                alt={`${tech.name} logo`}
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -103,3 +91,4 @@ const Experiences = () => {
 };
 
 export default Experiences;
+
