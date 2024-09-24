@@ -11,7 +11,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2 grid grid-cols-2">
          <li>React</li>
         <li>Node.js</li>
-         <li>MonogDB</li>
+         <li>MongoDB</li>
          <li>Monogoose</li>
          <li>SQL</li>
          <li>mySQL</li>
