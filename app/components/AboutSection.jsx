@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2 grid grid-cols-2 gap-1">
+      <ul className="list-disc pl-2 grid grid-cols-2">
          <li>React</li>
         <li>Node.js</li>
          <li>MonogDB</li>
