@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 grid grid-cols-2 gap-2">
          <li>React</li>
         <li>Node.js</li>
          <li>MonogDB</li>
@@ -76,13 +76,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
           <p className="text-base lg:text-lg">
-  Im an aspiring fullstack developer studying Computer Science at City University of New York Brooklyn College
-  I aspire to be a developer who not only develops amazing software but one who can drive for real good in the world
-  the tech industry is changing our lives every day and I believe that by improving our technologies were making a huge leap towards a better future
-  I have delved in both frontend and backend development and I am currently building 2 full stack projects as part of my
-  fellowship at CUNY Tech Prep I aspire to be a developer who not only develops amazing software
-  but one who can drive for real good in the world the tech industry is changing our lives every day
-  and I believe that by improving our technologies were making a huge leap towards a better future
+            I am an aspiring full-stack developer studying Computer Science at Brooklyn College.
+            My goal is to leverage technology to create meaningful solutions across various 
+            industries. Currently, I am building two full-stack projects as part of my fellowship 
+            at CUNY Tech Prep, gaining experience in both frontend and backend development while 
+            exploring how tech can drive positive change in diverse fields.
 </p>
           </p>
           <div className="flex flex-row justify-start mt-8">
