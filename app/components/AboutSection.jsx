@@ -9,7 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+         <li>React</li>
         <li>Node.js</li>
+         <li>MonogDB</li>
+         <li>Monogoose</li>
+         <li>SQL</li>
+         <li>mySQL</li>
+          <li>Java</li>
+         <li>C++</li>
         <li>Express</li>
         <li>PostgreSQL</li>
         <li>Sequelize</li>
@@ -68,11 +75,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am an aspiring full stack developer with an interest in front-end development. Ive worked
-            in a variety of roles ranging from software developer, teaching assistant, to receptionist. But my passion lies in 
-            coding and building unique user interfaces. I have experience working with HTML, CSS, JavaScript, Node.js, 
-            Express, React, Next.js, Tailwind CSS and much more! Im a team player and always excited to work with others to
-            create cool applications.
+            I'm an aspiring full-stack developer, studying Computer Science at City University of New York, Brooklyn College.
+            I aspire to be a developer who not only develops amazing software, but one who can drive for real good in the world -
+            the tech industry is changing our lives every day, and I believe that by improving our technologies we're making a huge leap towards a better future.
+            I have delved in both front-end and back-end development, and I am currently building 2 full stack projects as part of my 
+            fellowship at CUNY Tech Prep. I aspire to be a developer who not only develops amazing software, 
+            but one who can drive for real good in the world - the tech industry is changing our lives every day,
+            and I believe that by improving our technologies we're making a huge leap towards a better future. 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
