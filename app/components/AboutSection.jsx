@@ -75,13 +75,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm an aspiring full-stack developer, studying Computer Science at City University of New York, Brooklyn College.
-            I aspire to be a developer who not only develops amazing software, but one who can drive for real good in the world -
-            the tech industry is changing our lives every day, and I believe that by improving our technologies we're making a huge leap towards a better future.
-            I have delved in both front-end and back-end development, and I am currently building 2 full stack projects as part of my 
-            fellowship at CUNY Tech Prep. I aspire to be a developer who not only develops amazing software, 
-            but one who can drive for real good in the world - the tech industry is changing our lives every day,
-            and I believe that by improving our technologies we're making a huge leap towards a better future. 
+          <p className="text-base lg:text-lg">
+  Im an aspiring fullstack developer studying Computer Science at City University of New York Brooklyn College
+  I aspire to be a developer who not only develops amazing software but one who can drive for real good in the world
+  the tech industry is changing our lives every day and I believe that by improving our technologies were making a huge leap towards a better future
+  I have delved in both frontend and backend development and I am currently building 2 full stack projects as part of my
+  fellowship at CUNY Tech Prep I aspire to be a developer who not only develops amazing software
+  but one who can drive for real good in the world the tech industry is changing our lives every day
+  and I believe that by improving our technologies were making a huge leap towards a better future
+</p>
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
