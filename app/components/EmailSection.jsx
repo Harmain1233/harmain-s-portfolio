@@ -10,7 +10,7 @@ const ContactSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-gray-400 mb-8 max-w-md text-center text-lg">
-          Im currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, Ill try my best to get back to you!
+          I&apos;m currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className="flex justify-end gap-6 mt-4">
           <Link href="https://github.com/Harmain1233" target="_blank" rel="noopener noreferrer">

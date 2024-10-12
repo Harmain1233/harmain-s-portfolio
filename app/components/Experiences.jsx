@@ -1,94 +1,54 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import TimelineElements from "./TimelineElements";
+import React from 'react';
+import TimelineElements from './TimelineElements'; // Import your timeline elements
 
-
-const technologies = [
-  { name: "JavaScript", image: "images/javascript.png" },
-  { name: "React", image: "images/react213.png" },
-  { name: "Next.js", image: "images/nextjs.png" },
-  { name: "Tailwind CSS", image: "images/tailwindcss.png" },
-  { name: "Node.js", image: "images/nodejs.png" },
-  { name: "HTML", image: "images/html.png" },
-  { name: "Figma", image: "images/figma.png" },
-  { name: "CSS", image: "images/css.png" },
-  { name: "VSCode", image: "images/vscode.png" },
-  // Add more technologies as needed
-];
-
-const Experiences = () => {
+const ExperienceTimeline = () => {
   return (
-    <section id="experiences">
-      <h1 className="text-4xl font-bold text-white text-center mt-20">
-        What Ive Done So Far
-      </h1>
-      <div className="experience-section md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        
-        {/* Experiences Section */}
-        <div className="mt-10 flex flex-col">
-          {TimelineElements.map((element) => (
-            <motion.div
-              key={element.id}
-              className="experience-element relative overflow-hidden bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white p-5 rounded-lg mb-5 shadow-lg"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.5 }}
+    <div
+      id="experiences"
+      className="w-full mt-20 min-h-screen relative"
+    >
+      {/* Add "My Experiences" heading */}
+      <h1 className="text-3xl font-bold mb-10 text-center">My Experiences</h1>
+
+      {/* Container for the experiences in two columns */}
+      <div className="relative w-full flex flex-wrap justify-between gap-6">
+        {/* Iterate through each experience in TimelineElements */}
+        {TimelineElements.map((experience, index) => (
+          <div
+            key={experience.id}
+            className="w-full md:w-[48%] mb-10 flex items-stretch" // Ensures all cards are stretched to the same height
+          >
+            <div
+              className="relative w-full bg-[#181818] p-6 shadow-lg rounded-xl border border-[#33353F] flex flex-col justify-between"
+              style={{ minHeight: '300px' }} // Apply minimum height
             >
-              {/* Overlay with title and icon */}
-              <div className="overlay absolute inset-0 bg-black bg-opacity-70 flex items-center justify-between p-4 text-white transition-transform duration-300">
-                <h3 className="text-2xl font-bold">{element.title}</h3>
-                <div 
-                  className="icon-wrapper"
-                  style={{
-                    backgroundColor: element.iconBg,
-                  }}
-                >
-                  <img 
-                    src={element.icon} 
-                    alt={`${element.title} icon`} 
-                    className="w-12 h-12 object-cover rounded-full" 
+              <div className="flex items-center gap-2 mb-4">
+                {/* Display the icon for each experience */}
+                {experience.icon && (
+                  <img
+                    src={experience.icon}
+                    alt={`${experience.title} logo`}
+                    className="h-8 w-8"
                   />
-                </div>
+                )}
+                <h2 className="text-lg font-medium tracking-wide underline cursor-pointer decoration-transparent hover:decoration-current transition-[text-decoration] underline-offset-4">
+                  {experience.title} {/* Display the experience title */}
+                </h2>
               </div>
 
-              {/* Content */}
-              <div className="content pt-5 transition-opacity duration-300">
-                <p className="mt-5 text-white text-sm pl-1 tracking-wider">
-                  {element.description}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
+              <small className="text-xs">
+                {experience.startYear} {'→'} {experience.endYear || 'Present'}
+              </small>
 
-        {/* Technologies Section */}
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {technologies.map((tech, index) => (
-            <motion.div
-              key={index}
-              className="tech-card relative rounded-lg overflow-hidden flex items-center justify-center text-white text-lg font-bold"
-              whileHover={{ scale: 1.1, boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.3)" }}
-              transition={{ duration: 0.3 }}
-              style={{
-                height: "200px",
-                backgroundColor: "black", // or any color of your choice
-              }}
-            >
-              <img
-                src={tech.image}
-                alt={`${tech.name} logo`}
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                {tech.name}
-              </div>
-            </motion.div>
-          ))}
-        </div>
+              <p className="mt-2 mb-5 text-neutral-500">
+                {experience.description}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default Experiences;
-
+export default ExperienceTimeline;
