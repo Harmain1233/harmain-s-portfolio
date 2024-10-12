@@ -50,7 +50,7 @@ const TimelineElements = [
         title: "Co-Founder of WITUnite",
         description:
           "Co-founded an initiative to inform CUNY school students about internships and career development programs in NYC and the wider New York area. Maintaining a tech community with 180+ members, sharing resources and project development workshops. ", 
-        icon: "/images/athenahealth.png",
+        icon: "/images/witunite.logo.png",
         "startYear": '0ct 2023',
         "endYear": 'Present',
       },
