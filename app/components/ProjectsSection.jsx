@@ -34,8 +34,8 @@ const projectsData = [
       title: "Reminder Requests App",
       description: "Brooklyn Hacks Hackathon Project, an email scheduler that users can use to send themselves reminders directly to their inbox",
       image: "/images/imageCUNYGPT.png", 
-      gitUrl: "https://github.com/Harmain1233/CareerBuddy",
-      previewUrl: "https://harmain1233.github.io/CareerBuddy/",
+      gitUrl: "https://github.com/bhaw16/Hack-Brooklyn-Hackathon-Project",
+      previewUrl: "https://devpost.com/software/reminder-requests-app",
       videoUrl: "/videos_portfolio/hackproject_video.mp4",
       technologies: ['HTML', 'CSS', 'Javascript', 'Google Sheets API']
 
@@ -61,7 +61,7 @@ const projectsData = [
       gitUrl: "https://github.com/Harmain1233/Schedule-Assistant",
       previewUrl: "https://harmain1233.github.io/Schedule-Assistant/",
       videoUrl: "/videos_portfolio/ScheduleAssistant.mp4",
-      technologies: ['HTML', 'CSS', 'Javascript']
+      technologies: ['HTML', 'CSS', 'Javascript','Node.js', 'Express.js', 'Google Sheets API']
 
     },
     {
@@ -72,7 +72,8 @@ const projectsData = [
       gitUrl: "https://github.com/Harmain1233/To-Do-List",
       previewUrl: "https://harmain1233.github.io/To-Do-List/",
       videoUrl: "/videos_portfolio/to_do_list.mp4",
-      technologies: ['React', 'Next.js', 'Tailwind CSS']
+      technologies: ['HTML', 'CSS', 'Javascript']
+
 
     }
 ];
