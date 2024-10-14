@@ -37,7 +37,8 @@ const projectsData = [
       gitUrl: "https://github.com/bhaw16/Hack-Brooklyn-Hackathon-Project",
       previewUrl: "https://devpost.com/software/reminder-requests-app",
       videoUrl: "/videos_portfolio/hackproject_video.mp4",
-      technologies: ['HTML', 'CSS', 'Javascript', 'Google Sheets API']
+      technologies: ['HTML', 'CSS', 'Javascript','Node.js', 'Express.js', 'Google Sheets API']
+
 
 
 
@@ -61,7 +62,7 @@ const projectsData = [
       gitUrl: "https://github.com/Harmain1233/Schedule-Assistant",
       previewUrl: "https://harmain1233.github.io/Schedule-Assistant/",
       videoUrl: "/videos_portfolio/ScheduleAssistant.mp4",
-      technologies: ['HTML', 'CSS', 'Javascript','Node.js', 'Express.js', 'Google Sheets API']
+      technologies: ['HTML', 'CSS', 'Javascript']
 
     },
     {
