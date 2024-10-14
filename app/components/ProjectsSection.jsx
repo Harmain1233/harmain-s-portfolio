@@ -11,7 +11,7 @@ const projectsData = [
     image: "/images/img2.png", 
     gitUrl: "https://github.com/Harmain1233/BookHaven",
     previewUrl: "https://www.youtube.com/watch?v=o9VzrJ9Va8s",
-    videoUrl: "https://www.youtube.com/watch?v=o9VzrJ9Va8s",
+    videoUrl: "/videos_portfolio/WebApplication_BookHaven_Demo.mp4",
     technologies: ['React', 'Express.js', 'Tailwind CSS', 'MongoDB', 'Node.js', 'Render']
 
 
@@ -21,9 +21,9 @@ const projectsData = [
       title: "CUNYGPT",
       description: "CUNYGPT is a full-stack web application designed for CUNY students, powered by OpenAI and Langchain. It utilizes web scraping to gather data from CUNY webpages. Built with React, the app features Vercel's AI SDK and Chakra UI.",
       image: "/images/img2.png", 
-      gitUrl: "https://github.com/bhaw16/Hack-Brooklyn-Hackathon-Project",
-      previewUrl: "https://devpost.com/software/reminder-requests-app",
-      videoUrl: "https://youtu.be/cwWuKhdn5VY",
+      gitUrl: "https://github.com/mao-99/cunyGPT/tree/theOne",
+      previewUrl: "https://devpost.com/software/cunygpt",
+      videoUrl: "/videos_portfolio/CUNYGPT.mp4",
       technologies: ['Next.js', 'Vercels AI SDK', 'ChakraUI', 'Python' , 'MongoDb', 'Langchain']
 
 
