@@ -2,6 +2,15 @@
 const TimelineElements = [
   {
     id: 1,
+    title: "Google Software Engineer Program x Basta",
+    description:
+      "Selected from a competitive applicant pool to work closely with an experienced software engineer in a 10-week program to learn diverse problem-solving approaches, trade-offs, and best optimization strategies when writing code.", 
+    icon: "/images/google.png",
+    "startYear": 'Oct 2023',
+    "endYear": 'December 2023',
+  },
+  {
+    id: 1,
     title: "Software Engineering Work Prep Participant",
     description:
       "Will be trained in software engineering life-cycle and agile development with a focus on addressing new challenges in healthcare technology sponsored by AthenaHealth in partnership with Girls Who Code.", 
