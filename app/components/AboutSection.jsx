@@ -68,11 +68,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am an aspiring full stack developer with an interest in front-end development. Ive worked
-            in a variety of roles ranging from software developer, teaching assistant, to receptionist. But my passion lies in 
-            coding and building unique user interfaces. I have experience working with HTML, CSS, JavaScript, Node.js, 
-            Express, React, Next.js, Tailwind CSS and much more! Im a team player and always excited to work with others to
-            create cool applications.
+            Hi, I’m a recent Computer Science graduate from CUNY Brooklyn College (May 2025), passionate about where people, technology, and problem-solving meet.
+            I’ve explored this through web development, data analysis, mentoring, and AI projects—building tools to support students, teaching coding to teens, and collaborating with peers on tech solutions.
+            I’m drawn to human-centered tech roles where I can build, analyze, and simplify with purpose. I value collaboration, learning, and using tech to improve everyday experiences.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
