@@ -5,6 +5,16 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+  id: 1,
+  title: "NYC 311 Data Analysis Project",
+  description: "Analyzed 50K+ NYC 311 service requests from Jan 2023 to uncover borough-level complaint patterns and resolution trends.",
+  image: "/images/TableauDashboard.png", // replace with actual image path if different
+  gitUrl: "https://github.com/Harmain1233/311-Data-Project",
+  previewUrl: "https://public.tableau.com/app/profile/harmain.munir/viz/311ServiceRequests_17486660581880/Dashboard1",
+  videoUrl: "/videos_portfolio/DashboardVideo.mp4", // optional if you have one
+  technologies: ['Python', 'Pandas', 'Jupyter Notebook', 'Tableau', 'Socrata API']
+  },
+  {
     id: 1,
     title: "BookHaven",
     description: "BookHaven is a full-stack web application built using the MERN stack, featuring MongoDB, Express.js, React, and Node.js. This application provides users with a seamless experience to browse, search, and purchase books online. ",
