@@ -4,18 +4,18 @@ import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
-  id: 1,
-  title: "NYC 311 Data Analysis Project",
-  description: "Analyzed 50K+ NYC 311 service requests from Jan 2023 to uncover borough-level complaint patterns and resolution trends.",
-  image: "/images/TableauDashboard.png", // replace with actual image path if different
-  gitUrl: "https://github.com/Harmain1233/311-Data-Project",
-  previewUrl: "https://public.tableau.com/app/profile/harmain.munir/viz/311ServiceRequests_17486660581880/Dashboard1",
-  videoUrl: "/videos_portfolio/DashboardVideo.mp4", // optional if you have one
-  technologies: ['Python', 'Pandas', 'Jupyter Notebook', 'Tableau', 'Socrata API']
-  },
-  {
+    {
     id: 1,
+    title: "NYC 311 Data Analysis Project",
+    description: "Analyzed 50K+ NYC 311 service requests from Jan 2023 to uncover borough-level complaint patterns and resolution trends.",
+    image: "/images/TableauDashboard.png", // replace with actual image path if different
+    gitUrl: "https://github.com/Harmain1233/311-Data-Project",
+    previewUrl: "https://public.tableau.com/app/profile/harmain.munir/viz/311ServiceRequests_17486660581880/Dashboard1",
+    videoUrl: "/videos_portfolio/DashboardVideo.mp4", // optional if you have one
+    technologies: ['Python', 'Pandas', 'Jupyter Notebook', 'Tableau', 'Socrata API']
+    },
+  {
+    id: 2,
     title: "BookHaven",
     description: "BookHaven is a full-stack web application built using the MERN stack, featuring MongoDB, Express.js, React, and Node.js. This application provides users with a seamless experience to browse, search, and purchase books online. ",
     image: "/images/img2.png", 
@@ -27,7 +27,7 @@ const projectsData = [
 
   },
     {
-      id: 1,
+      id: 3,
       title: "CUNYGPT",
       description: "CUNYGPT is a full-stack web application designed for CUNY students, powered by OpenAI and Langchain. It utilizes web scraping to gather data from CUNY webpages. Built with React, the app features Vercel's AI SDK and Chakra UI.",
       image: "/images/img2.png", 
@@ -40,7 +40,7 @@ const projectsData = [
 
     },
     {
-      id: 2,
+      id: 4,
       title: "Reminder Requests App",
       description: "Brooklyn Hacks Hackathon Project, an email scheduler that users can use to send themselves reminders directly to their inbox",
       image: "/images/imageCUNYGPT.png", 
@@ -54,7 +54,7 @@ const projectsData = [
 
     },
     {
-      id: 3,
+      id: 5,
       title: "Career Buddy",
       description: "Human Computer Interaction class group project built to address needs in student community",
       image: "/images/img1.png", 
@@ -65,7 +65,7 @@ const projectsData = [
 
     },
     {
-      id: 4,
+      id: 6,
       title: "Schedule Assistant",
       description: "An application built for Brooklyn College CS students to help students navigate their class schedule",
       image: "/images/img3.png", 
@@ -76,7 +76,7 @@ const projectsData = [
 
     },
     {
-      id: 5,
+      id: 7,
       title: "To Do List Application",
       description: "To Do List application built for a human computer interaction class to vanilla Javascript",
       image: "/images/img4.png", 
